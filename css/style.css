@@ -83,7 +83,7 @@ a:hover {
     text-align: center;
     margin: auto;
     max-height: 90vh;
-    width: 90%;
+    width: 95%;
     margin-bottom: 7%;
 }
 
@@ -105,8 +105,8 @@ a:hover {
         float: left;
     }
     div.main {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
         margin: auto;
     }
 }
