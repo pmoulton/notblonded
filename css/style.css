@@ -47,8 +47,7 @@ a:hover {
 
 .main {
     margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 50px;
+    margin-left: 100px;
 }
 
 .sidenav {
@@ -92,4 +91,23 @@ a:hover {
     width: auto;
     max-width: 100%;
     max-height: 90vh;
+}
+
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+
+@media screen and (max-width: 700px) {
+    .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .sidebar a {
+        float: left;
+    }
+    div.main {
+        margin-left: 0;
+        margin: auto;
+    }
 }
