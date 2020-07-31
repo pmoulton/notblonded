@@ -46,8 +46,8 @@ a:hover {
 }
 
 .main {
-    margin-top: 50px;
-    margin-left: 100px;
+    padding-top: 50px;
+    padding-left: 150px;
 }
 
 .sidenav {
@@ -83,7 +83,7 @@ a:hover {
     text-align: center;
     margin: auto;
     max-height: 90vh;
-    width: 80%;
+    width: 90%;
     margin-bottom: 7%;
 }
 
@@ -98,16 +98,15 @@ a:hover {
 
 @media screen and (max-width: 700px) {
     .sidenav {
-        width: 100%;
         height: auto;
         position: relative;
-        margin-bottom: 20px;
     }
     .sidebar a {
         float: left;
     }
     div.main {
-        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
         margin: auto;
     }
 }
